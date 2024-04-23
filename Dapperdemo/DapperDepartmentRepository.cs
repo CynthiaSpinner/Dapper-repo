@@ -29,9 +29,5 @@ namespace Dapperdemo
                 new {name = name});
         }
 
-        public static implicit operator ValueWebSocketReceiveResult(DapperDepartmentRepository v)
-        {
-            throw new NotImplementedException();
-        }
     }
 }
